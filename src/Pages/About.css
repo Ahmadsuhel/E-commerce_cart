@@ -1,0 +1,183 @@
+.layout_padding {
+    padding: 90px 0;
+  }
+
+  .long_section {
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+
+  .about_section{
+      background-color: #f9fafa;
+  }
+
+  .heading_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  
+  .heading_container h2 {
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+   
+    color:rgb(28,28,29);
+
+    font-size: 2rem;
+    font-weight: 800;
+    color:rgb(28,28,29);
+   
+}
+
+  
+
+
+  .about_section .img-box img {
+    width: 100%;
+    margin-top: 0;
+    height: 278px;
+  }
+
+
+
+
+  .about_section .detail-box  .btn-color {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(98,84,243);
+    color: #ffffff;
+    border-radius: 0;
+    border: 1px solid rgb(98,84,243);
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    text-decoration: none;
+  }
+  
+  .about_section .detail-box  .btn-color:hover {
+    background-color: transparent;
+    color: rgb(98,84,243);
+  }
+
+  .about_section .detail-box p {
+    margin-top: 10px;
+    margin-bottom: 35px;
+  }
+  
+  .about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #6bb7be;
+    color: #ffffff;
+    border-radius: 0;
+    border: 1px solid #6bb7be;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+
+  #service{
+    background:#fff;
+  }
+  .atf-section-padding {
+    padding: 90px 0;
+}
+
+
+.atf-single-service-wrap {
+  border-radius: 0;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.3s all ease-in-out 0s;
+  -webkit-transition: 0.3s all ease-in-out 0s;
+  box-shadow: 0 0 15px rgb(0,0,0.2);
+  -webkit-box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  background:#ffffff;
+  padding: 18px 15px;
+}
+
+
+
+
+.atf-services-icon {
+  color: #ffffff;
+  background:#3b5781d9;
+  font-size: 45px;
+  line-height: 95px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  z-index: 2;
+  margin: auto;
+}
+
+
+
+.tempaltemo-carousel .h1 {
+  font-size: .5em !important;
+  color: #000 !important;
+}
+
+@media (min-width: 576px) {
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+}
+
+.bg-light {
+   background-color: #e9eef5 !important;
+  }
+
+
+
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s;
+}
+.brand-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+
+.bg-lighti{
+  background: #f9fafa;
+}
+
+p{
+  font-family: "Poppins", sans-serif;
+}
+
+
+@media (max-width:986px) {
+  .long_section{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .heading_container h2{
+    font-size: 2rem;
+  }
+
+}
+
+@media(max-width:390px){
+  .about_section .img-box img {
+    margin-top: 20px;
+  }
+}
+
+@media(max-width:241px){
+  .heading_container h2{
+    font-size: 1.8rem;
+  }
+}

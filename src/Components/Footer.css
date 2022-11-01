@@ -1,0 +1,40 @@
+
+.footer_section {
+   
+    margin-top: auto;
+    text-align: center;
+   
+   
+    
+}
+
+.footer_section{
+    background: #000000;
+}
+
+
+
+.footer_section p a {
+    color: inherit;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fab{
+    color:#61DBFB;
+}
+
+.footer_section p {
+    color:#fafafa;
+    padding: 25px 0;
+    margin: 0;
+}

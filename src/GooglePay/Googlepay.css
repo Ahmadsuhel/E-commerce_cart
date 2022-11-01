@@ -1,0 +1,12 @@
+.googlepay{
+    width: 450px;
+    height: 40px;
+}
+
+@media  (max-width:500px) {
+    .googlepay{
+        width: 100%;
+        height: 40px;
+    }
+}
+

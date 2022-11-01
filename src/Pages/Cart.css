@@ -1,0 +1,165 @@
+.itemside .aside {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.img-sm {
+    width: 72px;
+    height: 72px;
+}
+
+
+@media(max-width:979px){
+    .lead{
+        font-size: 1rem;
+    }
+    .card-container{
+        width:250px;
+    }
+}
+
+#form1{
+    width:70px;
+}
+
+@media(max-width:767px){
+ #form1{
+     width:30px;
+ }
+} 
+
+.img-xs, .img-sm, .img-md, .img-lg {
+    display: inline-block;
+    -o-object-fit: cover;
+    object-fit: cover;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+
+.itemside .info {
+    padding-left: 0.75rem;
+    flex-grow: 1;
+}
+
+.itemside .title {
+    display: block;
+    margin-bottom: 0rem;
+}
+
+.text-muted {
+    color: #9da1a7 !important;
+}
+
+
+.text-end1{
+    text-align: right;
+}
+@media (max-width:764px) {
+    .text-end1
+{
+    text-align: left;
+    margin-top: 8px;
+}
+
+.mttt{
+    margin-top: 20px!important;
+}
+
+}
+
+.mttt{
+    margin-top: 0;
+}
+
+
+@media(max-width:515px)
+{
+    .card-container{
+        width:200px;
+    }
+}
+
+.input-spinner {
+    max-width: 140px;
+    flex-wrap: nowrap;
+    display: inline-flex;
+}
+
+
+.input-spinner .btn {
+    width: 42px;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+
+.input-spinner input.form-control {
+    text-align: center;
+    border-color: #dee2e6;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+ .btn-custom1{
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #d9534f;
+  color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #d9534f;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  text-decoration: none;
+}
+
+ .btn-custom1:hover {
+  background-color: transparent;
+  color: #d9534f;
+}  
+
+p{
+    font-family: "Poppins", sans-serif;
+  }
+  
+
+
+  dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+  }
+  
+  dt {
+    grid-column-start: 1;
+  }
+  
+  dd {
+    grid-column-start: 2;
+  }
+
+
+ .float-end1{
+     float: right;
+ }
+
+ aside{
+     margin-top: 2px;
+ }
+
+  @media (max-width:524px) {
+    .float-end1{
+        float: left;
+        width: 100%;
+    }
+    aside{
+        margin-top: 100px;
+       
+    }
+
+    .card-container{
+        width:100%;
+    }
+ } 
